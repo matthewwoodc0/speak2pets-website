@@ -3,194 +3,103 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Speak2Pets | AI Animal Character Chat</title>
-    <meta name="description" content="Speak2Pets is an AI animal-character chat app by Lettuce Studios LLC. Chat with goofy preconfigured pets or create custom pet personalities for entertainment.">
-    <meta name="theme-color" content="#43c6ac">
+    <title>Speak2Pets | AI Animal Friends</title>
+    <meta name="description" content="Speak2Pets is a playful iPhone and iPad app for chatting with AI animal characters and creating custom pets from a form and photo.">
+    <meta name="theme-color" content="#4f82c7">
     <link rel="canonical" href="https://speak2pets.com/">
     <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.svg">
+    <link rel="preload" as="image" href="/assets/app-icon.jpg">
+    <link rel="preload" as="image" href="/assets/screenshot-chat.png">
+
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://speak2pets.com/">
-    <meta property="og:title" content="Speak2Pets | AI Animal Character Chat">
-    <meta property="og:description" content="Talk with goofy AI animal characters, choose ready-made pets, or create custom pet personalities.">
-    <meta property="og:image" content="https://speak2pets.com/assets/og-image.svg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Speak2Pets | AI Animal Character Chat">
-    <meta name="twitter:description" content="Talk with goofy AI animal characters, choose ready-made pets, or create custom pet personalities.">
-    <meta name="twitter:image" content="https://speak2pets.com/assets/og-image.svg">
-    <link rel="stylesheet" href="/styles.css">
+    <meta property="og:title" content="Speak2Pets | AI Animal Friends">
+    <meta property="og:description" content="Chat with silly AI animal characters or create a custom pet personality from your pet's photo.">
+    <meta property="og:image" content="https://speak2pets.com/assets/app-icon.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Speak2Pets | AI Animal Friends">
+    <meta name="twitter:description" content="Chat with silly AI animal characters or create a custom pet personality from your pet's photo.">
+    <meta name="twitter:image" content="https://speak2pets.com/assets/app-icon.jpg">
+
+    <link rel="stylesheet" href="/styles.css?v=20260618">
     <script defer src="/script.js"></script>
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="/" aria-label="Speak2Pets home">
-        <span class="brand-mark" aria-hidden="true">S2P</span>
-        <span>Speak2Pets</span>
-      </a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="#how-it-works">How it works</a>
-        <a href="#features">Features</a>
-        <a href="#download">Download</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
-    <main>
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">AI animal-character chat by Lettuce Studios LLC</p>
-          <h1 id="hero-title">Talk with goofy animal friends powered by AI.</h1>
-          <p class="hero-text">
-            Speak2Pets lets you chat with playful animal characters, pick preconfigured pets, or create custom pet personalities for lighthearted entertainment.
-          </p>
-          <div class="cta-row" aria-label="Primary actions">
-            <a class="button button-primary" href="https://apps.apple.com/us/search?term=Speak2Pets%3A%20AI%20Animal%20Friends%21" rel="noopener">Download on the App Store</a>
-            <a class="button button-secondary" href="mailto:lettucestudiosllc@gmail.com?subject=Speak2Pets%20Website%20Inquiry">Contact Lettuce Studios</a>
-          </div>
-          <ul class="fact-list" aria-label="App facts">
-            <li>Free with in-app purchases</li>
-            <li>Entertainment</li>
-            <li>iPhone and iPad</li>
-            <li>iOS 13+</li>
-          </ul>
-        </div>
-
-        <div class="app-preview" aria-label="Speak2Pets app preview placeholder">
-          <div class="phone-mockup">
-            <div class="phone-top"></div>
-            <div class="chat-screen">
-              <div class="pet-profile">
-                <div class="pet-avatar pet-avatar-cat" aria-hidden="true">Cat</div>
-                <div>
-                  <p class="pet-name">Professor Pickles</p>
-                  <p class="pet-role">Snack philosopher</p>
-                </div>
-              </div>
-              <div class="bubble bubble-pet">I have reviewed the evidence and conclude dinner should be early.</div>
-              <div class="bubble bubble-user">What evidence?</div>
-              <div class="bubble bubble-pet">My bowl made a very convincing echo.</div>
-              <div class="composer-placeholder">Type a silly question...</div>
-            </div>
-          </div>
-          <p class="asset-note">Placeholder app preview. Swap in real screenshots under <code>/public/assets/</code>.</p>
-        </div>
-      </section>
-
-      <section class="section" id="how-it-works" aria-labelledby="how-title">
-        <div class="section-heading">
-          <p class="eyebrow">How it works</p>
-          <h2 id="how-title">Choose a character, start a chat, keep it playful.</h2>
-        </div>
-        <div class="step-grid">
-          <article class="step-card">
-            <span class="step-number">1</span>
-            <h3>Pick a pet</h3>
-            <p>Start with ready-made animal characters built for goofy, expressive conversations.</p>
-          </article>
-          <article class="step-card">
-            <span class="step-number">2</span>
-            <h3>Chat with AI</h3>
-            <p>Ask questions, riff on silly scenarios, and get character-style replies made for entertainment.</p>
-          </article>
-          <article class="step-card">
-            <span class="step-number">3</span>
-            <h3>Make your own</h3>
-            <p>Create custom pet personalities with quirks, voices, and moods that fit the character you imagine.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="feature-band" id="features" aria-labelledby="features-title">
-        <div class="section-heading">
-          <p class="eyebrow">Features</p>
-          <h2 id="features-title">Built for quick, funny AI character chats.</h2>
-        </div>
-        <div class="feature-grid">
-          <article>
-            <h3>Preconfigured pets</h3>
-            <p>Jump into conversations with animal characters that already have a point of view.</p>
-          </article>
-          <article>
-            <h3>Custom personalities</h3>
-            <p>Design new pet characters and shape how they respond without needing setup complexity.</p>
-          </article>
-          <article>
-            <h3>Made for iOS</h3>
-            <p>Available for iPhone and iPad on iOS 13 or later.</p>
-          </article>
-          <article>
-            <h3>Entertainment first</h3>
-            <p>Speak2Pets is a playful AI chat app. It is not a pet translator, veterinary tool, or medical product.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section character-section" aria-labelledby="characters-title">
-        <div class="section-heading">
-          <p class="eyebrow">Characters and custom pets</p>
-          <h2 id="characters-title">A cast you can use now, plus pets you invent.</h2>
-        </div>
-        <div class="character-layout">
-          <div class="character-list" aria-label="Example pet characters">
-            <article class="character-card">
-              <div class="pet-avatar pet-avatar-dog" aria-hidden="true">Dog</div>
-              <div>
-                <h3>Captain Biscuit</h3>
-                <p>A loyal optimist who treats every walk like a moon landing.</p>
-              </div>
-            </article>
-            <article class="character-card">
-              <div class="pet-avatar pet-avatar-bird" aria-hidden="true">Bird</div>
-              <div>
-                <h3>DJ Feathers</h3>
-                <p>A tiny hype machine with strong opinions about shiny objects.</p>
-              </div>
-            </article>
-            <article class="character-card">
-              <div class="pet-avatar pet-avatar-cat" aria-hidden="true">Cat</div>
-              <div>
-                <h3>Professor Pickles</h3>
-                <p>A dramatic cat scholar focused on snacks, naps, and household politics.</p>
-              </div>
-            </article>
-          </div>
-          <div class="custom-panel">
-            <h3>Custom pet builder</h3>
-            <p>Give your character a name, species, attitude, and favorite bits. Speak2Pets turns that setup into an AI chat personality you can revisit.</p>
-            <div class="trait-cloud" aria-label="Example custom pet traits">
-              <span>dramatic</span>
-              <span>sleepy</span>
-              <span>chaotic</span>
-              <span>royal</span>
-              <span>snack-motivated</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="download-section" id="download" aria-labelledby="download-title">
-        <div>
-          <p class="eyebrow">App Store</p>
-          <h2 id="download-title">Speak2Pets: AI Animal Friends!</h2>
-          <p>Free to download with in-app purchases. Developed by Lettuce Studios LLC for iPhone and iPad.</p>
-        </div>
-        <a class="button button-primary" href="https://apps.apple.com/us/search?term=Speak2Pets%3A%20AI%20Animal%20Friends%21" rel="noopener">Download on the App Store</a>
-      </section>
-    </main>
-
-    <footer class="site-footer" id="contact">
-      <div>
-        <a class="brand footer-brand" href="/" aria-label="Speak2Pets home">
-          <span class="brand-mark" aria-hidden="true">S2P</span>
+    <main class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="/" aria-label="Speak2Pets home">
+          <span class="brand-mark" aria-hidden="true"></span>
           <span>Speak2Pets</span>
         </a>
-        <p>AI animal-character chat for entertainment. Developed by Lettuce Studios LLC.</p>
-      </div>
-      <div class="footer-links">
-        <a href="mailto:lettucestudiosllc@gmail.com?subject=Speak2Pets%20Website%20Inquiry">Contact Lettuce Studios</a>
-        <a href="/sitemap.xml">Sitemap</a>
-      </div>
-      <p class="copyright">&copy; <span id="year">2026</span> Lettuce Studios LLC. All rights reserved.</p>
-    </footer>
+        <a class="store-link" href="https://apps.apple.com/us/app/speak2pets-ai-animal-friends/id6450390035" rel="noopener">App Store</a>
+      </header>
+
+      <section class="intro" aria-labelledby="site-title">
+        <p class="kicker">AI animal character chat for iPhone and iPad</p>
+        <h1 id="site-title">Talk with silly animal friends.</h1>
+        <p class="intro-copy">
+          Speak2Pets is a playful entertainment app where you can chat with prebuilt animal characters or create a custom pet from a quick form and photo.
+        </p>
+      </section>
+
+      <section class="app-showcase" aria-label="Speak2Pets app">
+        <article class="app-tile">
+          <a
+            class="app-link"
+            href="https://apps.apple.com/us/app/speak2pets-ai-animal-friends/id6450390035"
+            rel="noopener"
+            aria-label="Visit Speak2Pets on the App Store"
+            title="Visit Store Page"
+            data-tooltip="Visit Store Page"
+          >
+            <img
+              class="app-icon"
+              src="/assets/app-icon.jpg"
+              alt="Speak2Pets: AI Animal Friends! app icon"
+              width="512"
+              height="512"
+            >
+          </a>
+          <div class="app-copy">
+            <p class="app-meta">Free entertainment app</p>
+            <h2>Speak2Pets: AI Animal Friends!</h2>
+            <p>Choose a character, send a message, and keep the conversation light. It is a chat toy for pet people, not a real pet translator or veterinary tool.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="details" aria-label="What Speak2Pets does">
+        <article>
+          <p class="detail-meta">Characters</p>
+          <h2>Start fast.</h2>
+          <p>Pick a preconfigured animal friend when you just want a quick, funny conversation.</p>
+        </article>
+        <article>
+          <p class="detail-meta">Custom pets</p>
+          <h2>Make it yours.</h2>
+          <p>Fill out a short form, upload your pet's best photo, and create a custom personality.</p>
+        </article>
+        <article>
+          <p class="detail-meta">Support</p>
+          <h2>Keep it clear.</h2>
+          <p>If chat is not working, email support with your device, iOS version, and what happened.</p>
+        </article>
+      </section>
+
+      <section class="screenshots" aria-label="App screenshots">
+        <img src="/assets/screenshot-chat.png" alt="Speak2Pets chat screen with an AI animal character" width="392" height="696">
+        <img src="/assets/screenshot-custom-pet.png" alt="Speak2Pets custom pet setup screen" width="392" height="696">
+        <img src="/assets/screenshot-pet-list.png" alt="Speak2Pets animal character list screen" width="392" height="696">
+      </section>
+
+      <footer class="site-footer">
+        <p>&copy; <span id="year">2026</span> Lettuce Studios LLC. Speak2Pets is for entertainment.</p>
+        <nav aria-label="Footer links">
+          <a href="https://lettucestudios.net" rel="noopener">Support</a>
+          <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener">Privacy</a>
+        </nav>
+      </footer>
+    </main>
   </body>
 </html>
