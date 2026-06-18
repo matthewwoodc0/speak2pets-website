@@ -71,10 +71,12 @@ img {
 .brand-mark {
   width: 24px;
   height: 24px;
-  border: 1px solid rgba(20, 24, 33, 0.12);
-  border-radius: 7px 14px 7px 14px;
-  background: var(--accent);
-  transform: rotate(-8deg);
+  border-radius: 7px;
+  background-image: url("/assets/speak2pets-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 4px 14px rgba(24, 83, 160, 0.18);
 }
 
 .store-link,
