@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Speak2Pets social preview</title>
+  <desc id="desc">Colorful social image for Speak2Pets, an AI animal-character chat app.</desc>
+  <rect width="1200" height="630" fill="#fffdf7"/>
+  <rect x="70" y="70" width="1060" height="490" rx="42" fill="#16213e"/>
+  <circle cx="965" cy="170" r="72" fill="#43c6ac"/>
+  <circle cx="930" cy="425" r="94" fill="#ff6b6b"/>
+  <circle cx="1040" cy="330" r="58" fill="#f8c537"/>
+  <text x="130" y="245" font-family="Arial, sans-serif" font-size="82" font-weight="800" fill="#ffffff">Speak2Pets</text>
+  <text x="132" y="325" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#bff1e9">AI Animal Character Chat</text>
+  <text x="132" y="400" font-family="Arial, sans-serif" font-size="30" font-weight="600" fill="#ffffff">Goofy pets. Custom personalities. Built for fun.</text>
+  <text x="876" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="800" fill="#16213e">S2P</text>
+</svg>

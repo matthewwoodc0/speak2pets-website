@@ -1,0 +1,30 @@
+{
+  "name": "speak2pets-website",
+  "version": "1.0.0",
+  "description": "Static Firebase Hosting website for Speak2Pets by Lettuce Studios LLC.",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "XDG_CONFIG_HOME=.firebase/config firebase emulators:start --only hosting --project speak2pets-website",
+    "build": "echo 'Static site: no build step required'",
+    "deploy": "npm run build && firebase deploy --only hosting --project speak2pets-website",
+    "lint": "node --check public/script.js"
+  },
+  "keywords": [
+    "speak2pets",
+    "ai",
+    "animal-characters",
+    "ios",
+    "firebase-hosting"
+  ],
+  "author": "Lettuce Studios LLC",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "firebase-tools": "^15.20.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewwoodc0/speak2pets-website"
+  },
+  "homepage": "https://speak2pets.com"
+}
