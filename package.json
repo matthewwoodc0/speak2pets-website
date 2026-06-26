@@ -20,7 +20,7 @@
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {
-    "firebase-tools": "^15.20.0"
+    "firebase-tools": "15.22.3"
   },
   "repository": {
     "type": "git",
